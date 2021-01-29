@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+	<meta charset="utf-8">
+	<!-- General -->
+	<title>Playground</title>
+	<!-- Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet" />
+	<!-- Style -->
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body><!-- # Code Area -->
+<div class="code-area"><!-- Top -->
+<div class="top">
+<h1>Info og hjelp</h1>
+
+<p>Her kan du leke med kodespr&aring;ket javascript.</p>
+
+<p>Bruk feltet under for &aring; skrive koden.</p>
+
+<p>Her har du noen ide&eacute;r til hva du kan gj&oslash;re:</p>
+
+<ul>
+	<li>Flytt p&aring; figurene</li>
+	<li>Endre utseende til figurene (f.eks. st&oslash;rrelse, farge osv.)</li>
+	<li>Finn kule effekter p&aring; nett, og pr&oslash;v &aring; lag disse med de 3 figurene du har.</li>
+</ul>
+
+<p>Forklaring p&aring; koden linje for linje:</p>
+
+<ol>
+	<li>Setter variabelen <span style="color:#FFFF00;"><strong>figur</strong></span> til boksen. Du kan endre hvilken figur som velges ved &aring; endre <span style="color:#FFFF00;"><strong>(&quot;firkant&quot;)</strong></span> til enten <span style="color:#FFFF00;"><strong>sirkel</strong></span> eller <span style="color:#FFFF00;"><strong>trekant</strong></span>.</li>
+	<li>Flytter figuren 30% fra left/venstre</li>
+	<li>Endrer fargen p&aring; figuren til gr&oslash;nn. Pr&oslash;v &aring; endre til en annen farge.</li>
+	<li><span style="color:#FFFF00;"><strong>Roterer</strong></span> figuren med 90&deg;.</li>
+</ol>
+	<ul>
+		<li><span style="color:#FFFF00;"><strong>!</strong></span> Dersom man endrer på fargen til trekanten ser man fort at noe går galt. Du har ikke gjort noe feil her, men klarer du kanskje å finne ut av hva som har gått feil?</li>
+	</ul>
+</div>
+<!-- Bottom -->
+
+<div class="bottom">
+	<textarea id="javascriptInput" oninput="auto_grow(this)" placeholder="Begynn på koden..." spellcheck="false">let figur = document.getElementById(&quot;firkant&quot;);
+figur.style.left = &quot;30%&quot;;
+figur.style.backgroundColor = &quot;green&quot;;
+figur.style.transform = &quot;rotate(90deg)&quot;;
+	</textarea>
+
+<div class="button-wrapper"><button class="button btn-primary" onclick="runCS()" type="button">Kj&oslash;r kode<div class="btn-secondary"></div></button>
+</div>
+</div>
+&nbsp;
+
+<p class="topspace">Les mer om JavaScript:</p>
+
+<p><a href="https://www.w3schools.com/js/" target="_blank">https://www.w3schools.com/js/</a></p>
+<br />
+<br />
+&nbsp;
+<p>Bonus</p>
+
+<ul id="none">
+	<li>G&aring; til <a href="https://orteil.dashnet.org/cookieclicker/" target="_blank"> Cookie Clicker </a></li>
+	<li>Trykk p&aring; F12</li>
+	<li>G&aring; til Console</li>
+	<li>og skriv Game.Earn(10)</li>
+	<li>Du kan gi s&aring; mange cookies du vil</li>
+</ul>
+</div>
+<!-- # Playground -->
+
+<div class="playground">
+<div class="playground-inner">
+<div class="box" id="firkant"></div>
+
+<div class="box" id="sirkel"></div>
+
+<div class="box" id="trekant"></div>
+
+<div id="results"></div>
+</div>
+</div>
+</body>
+<script src="script.js"></script></html>
