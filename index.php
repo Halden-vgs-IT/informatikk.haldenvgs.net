@@ -71,7 +71,7 @@
                         </div>
                         <div class="slide-overlay"></div>
                         <video id="video1" preload="auto">
-                            <source src="videos/intro.mkv" type="video/mp4">
+                            <source src="videos/intro.mp4" type="video/mp4">
                         </video>
                     </div>
                     <div class="slide-image">
@@ -80,7 +80,7 @@
                         </div>
                         <div class="slide-overlay"></div>
                         <video id="video2" preload="auto">
-                            <source src="videos/annet.mkv" type="video/mp4">
+                            <source src="videos/annet.mp4" type="video/mp4">
                         </video>
                     </div>
                     <div class="slide-image">
@@ -89,7 +89,7 @@
                         </div>
                         <div class="slide-overlay"></div>
                         <video id="video3" preload="auto">
-                            <source src="videos/kreativitet.webm" type="video/webM">
+                            <source src="videos/kreativitet.mp4" type="video/webM">
                         </video>
                     </div>
                 </div>
